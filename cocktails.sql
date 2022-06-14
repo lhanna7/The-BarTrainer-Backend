@@ -1,9 +1,4 @@
--- id (auto generate?)
--- name
--- glass
--- method
--- ingredients
--- instructions
+TRUNCATE cocktails;
 
 INSERT INTO cocktails(id, name, glass, method, ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, ingredient6, topper, instruction1, instruction2, instruction3, instruction4, instruction5, instruction6, instruction7, garnish, imageurl)
 VALUES (
@@ -36,15 +31,15 @@ VALUES (
   '0.5oz Grenadine',
   '1oz Pineapple Juice',
   '1oz Cranberry Juice',
-  'null',
+  '',
   '1oz Lemon Lime Soda',
   'Fill glass 2/3 full with ice.',
   'Pour ingredients in order listed 1 inch from top of glass.',
   'Top with Lemon Lime soda.',
   'Add tall alcoholic straw and garnish.',
-  'null',
-  'null',
-  'null',
+  '',
+  '',
+  '',
   'Cherry, Lime, Orange',
   'https://ik.imagekit.io/loha/redsangria_AsF_PtfuS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549197'
 ),(
@@ -55,16 +50,16 @@ VALUES (
   '3oz Barefoot Moscato',
   '1.5oz Peach Schnapps',
   '2oz Pineapple Juice',
-  'null',
-  'null',
-  'null',
+  '',
+  '',
+  '',
   '1oz Lemon Lime Soda',
   'Fill glass 2/3 full with ice.',
   'Pour ingredients in order listed to 1 inch from top of glass.', 'Top with lemon lime soda.',
   'Add tall alcoholic straw and garnish.',
-  'null',
-  'null',
-  'null',
+  '',
+  '',
+  '',
   'Cherry, Orange Wheel, Lime Wedge',
   'https://ik.imagekit.io/loha/white-peach-sangria_SV4y0d8wR.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549063'
 ),(
@@ -77,7 +72,7 @@ VALUES (
   '0.5oz Tanqueray',
   '0.5oz Triple Sec',
   '4oz Sweet & Sour',
-  'null',
+  '',
   '1oz Cola',
   'Fill mucho glass heaping full with ice.',
   'Fill mixing glass 2/3 full with ice.',
@@ -118,14 +113,14 @@ VALUES (
   '0.5oz Bar Syrup',
   '1.50oz Sun Orchard Lime Juice',
   '4oz Sweet & Sour',
-  'null',
+  '',
   'Salt half of the rim of glass.',
   'Pour ingredients into mixing tin in order listed',
   'Fill mixing tin 2/3 full with ice',
   'Cap with mixing glass and shake for 3-10 seconds',
   'Remove mixing glass',
   'Add strainer and garnish',
-  'null',
+  '',
   'Lime Wedge, Half Salt Rim',
   'https://ik.imagekit.io/loha/perfmarg_T8J5l_lGf.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655139768298'
 ),(
@@ -138,15 +133,15 @@ VALUES (
   '0.5oz Bar Syrup',
   '1.50oz Sun Orchard Lime Juice',
   '4oz Sweet & Sour',
-  'null',
-  'null',
+  '',
+  '',
   'Salt half of the rim of glass.',
   'Pour ingredients into mixing tin in order listed',
   'Fill mixing tin 2/3 full with ice',
   'Cap with mixing glass and shake for 3-10 seconds',
   'Remove mixing glass',
   'Add strainer and garnish',
-  'null',
+  '',
   'Lime Wedge, Half Salt Rim',
   'https://ik.imagekit.io/loha/perfpatron_02C2MrHjPe.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549530'
 ),(
@@ -160,14 +155,14 @@ VALUES (
   '1oz Flavored Syrup',
   '1.50oz Sun Orchard Lime Juice',
   '3.50oz Sweet & Sour',
-  'null',
+  '',
   'Pour ingredients into mixing tin in order listed',
   'Fill mixing tin 2/3 full with ice.',
   'Cap with mixing glass and shake for 3-10 seconds.',
   'Remove mixing glass',
   'Add strainer and garnish.',
-  'null',
-  'null',
+  '',
+  '',
   'Lime and Cherry Speared',
   'https://ik.imagekit.io/loha/perfstraw_XAmnpP4lg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549847'
 ),(
@@ -179,9 +174,9 @@ VALUES (
   '0.75oz Blue Curacao',
   '2oz Pineapple Juice',
   '3oz Margarita Rocks Mix',
-  'null',
-  'null',
-  'null',
+  '',
+  '',
+  '',
   'Salt half of the rim of glass.',
   'Fill glass heaping full with ice.',
   'Fill mixing glass 2/3 full with ice.',
@@ -197,17 +192,17 @@ VALUES (
   'Blend',
   '2oz Captain Morgan',
   '5oz Blue Tropical Concentrate',
-  'null',
-  'null',
-  'null',
-  'null',
-  'null',
+  '',
+  '',
+  '',
+  '',
+  '',
   'Pour ingredients in order listed into blender.',
   'Fill mucho glass with ice, add to blender, blend until smooth.', 'When finished, pour mixture into glass until full.',
   'Add tall alcoholic straw and garnish.',
-  'null',
-  'null',
-  'null',
+  '',
+  '',
+  '',
   '2 Gummy Sharks',
   'https://ik.imagekit.io/loha/sharkbowl_plP_7IxgW.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1655139768758'
 )

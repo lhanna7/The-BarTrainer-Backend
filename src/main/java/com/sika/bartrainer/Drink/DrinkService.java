@@ -29,7 +29,7 @@ public class DrinkService {
       Drink updatedDrink = foundDrink.get();
       updatedDrink.setId(drink.getId());
       updatedDrink.setName(drink.getName());
-      updatedDrink.setGlass(drink.getName());
+      updatedDrink.setGlass(drink.getGlass());
       updatedDrink.setMethod(drink.getMethod());
       updatedDrink.setIngredient1(drink.getIngredient1());
       updatedDrink.setIngredient2(drink.getIngredient2());

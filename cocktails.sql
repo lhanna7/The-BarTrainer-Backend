@@ -2,7 +2,7 @@ TRUNCATE cocktails;
 
 INSERT INTO cocktails(id, name, glass, method, ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, ingredient6, topper, instruction1, instruction2, instruction3, instruction4, instruction5, instruction6, instruction7, garnish, imageurl)
 VALUES (
-  1,
+  5001,
   'Captain Bahama Mama',
   'Mucho',
   'Shake & Strain',
@@ -22,7 +22,7 @@ VALUES (
   '2 Cherries, Orange',
   'https://ik.imagekit.io/loha/cptnmama_650Y0pc1A.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549006'
 ),(
-  2,
+  5002,
   'Red Sangria',
   'Mucho',
   'Build 2/3rds Ice',
@@ -43,7 +43,7 @@ VALUES (
   'Cherry, Lime, Orange',
   'https://ik.imagekit.io/loha/redsangria_AsF_PtfuS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549197'
 ),(
-  3,
+  5003,
   'White Peach Sangria',
   'Mucho',
   'Build 2/3rds Ice',
@@ -63,7 +63,7 @@ VALUES (
   'Cherry, Orange Wheel, Lime Wedge',
   'https://ik.imagekit.io/loha/white-peach-sangria_SV4y0d8wR.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549063'
 ),(
-  4,
+  5004,
   'Top Shelf LIT',
   'Mucho',
   'Shake and Strain',
@@ -83,7 +83,7 @@ VALUES (
   'Lemon',
   'https://ik.imagekit.io/loha/longisland_lKZUIRtErZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549192'
 ),(
-  5,
+  5005,
   'Blue Hawaiian LIT',
   'Mucho',
   'Shake & Strain',
@@ -103,7 +103,7 @@ VALUES (
   'Lemon',
   'https://ik.imagekit.io/loha/blueh_NdarGcHCU0.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549179'
 ),(
-  6,
+  5006,
   'Perfect Margarita',
   'Martini',
   'Shake & Strain',
@@ -124,7 +124,7 @@ VALUES (
   'Lime Wedge, Half Salt Rim',
   'https://ik.imagekit.io/loha/perfmarg_T8J5l_lGf.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655139768298'
 ),(
-  7,
+  5007,
   'Perfect Patron Margarita',
   'Martini',
   'Shake & Strain',
@@ -145,7 +145,7 @@ VALUES (
   'Lime Wedge, Half Salt Rim',
   'https://ik.imagekit.io/loha/perfpatron_02C2MrHjPe.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549530'
 ),(
-  8,
+  5008,
   'Perfect Strawberry Margarita',
   'Martini',
   'Shake & Strain',
@@ -166,7 +166,7 @@ VALUES (
   'Lime and Cherry Speared',
   'https://ik.imagekit.io/loha/perfstraw_XAmnpP4lg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549847'
 ),(
-  9,
+  5009,
   'Blue Aloha Mana Margarita',
   'Mucho',
   'Shake & Strain',
@@ -186,7 +186,7 @@ VALUES (
   'Lime, Half Salt Rim',
   'https://ik.imagekit.io/loha/mana_iPnTuF3cG.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655140549817'
 ),(
-  10,
+  5010,
   'Shark Bowl',
   'Mucho',
   'Blend',
